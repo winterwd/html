@@ -2306,7 +2306,7 @@ if (IS_HEADER) {
   init()
 } else {
   // Allow status to render, then preload assets and start app.
-  setLoadingStatus('献给你爱的TA ❤')
+  // setLoadingStatus('献给你爱的TA ❤')
   setTimeout(() => {
     soundManager.preload().then(init, (reason) => {
       // Codepen preview doesn't like to load the audio, so just init to fix the preview for now.
